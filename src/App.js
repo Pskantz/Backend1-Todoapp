@@ -111,7 +111,7 @@ function App() {
 
         <label htmlFor="desc">Description:</label>
         <input type="text" onChange={(e) => setDesc(e.target.value)} />
-        <button onClick={createTodo}>Klart</button>
+        <button onClick={createTodo}>Check</button>
         <div>
           todos:
           {todo.map((mytodos) => {
